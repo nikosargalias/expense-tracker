@@ -39,6 +39,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
     "core-js": "^3.16.4",
+    "express": "^4.17.1",
     "moment": "^2.29.1",
     "react": "^16.14.0",
     "react-dates": "^21.8.0",

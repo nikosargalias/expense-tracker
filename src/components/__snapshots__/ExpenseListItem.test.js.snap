@@ -10,8 +10,8 @@ exports[`should render expense list item 1`] = `
     </h3>
   </Link>
   <p>
-    2000
-     - 
+    20.00
+     -
     1/1/70, 1:00:00 AM
   </p>
   <button

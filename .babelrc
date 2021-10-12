@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": "last 2 versions, > 5%",
+        "useBuiltIns": "usage",
+        "corejs": { "version": "3.9.1", "proposals": true }
+        // "include": ["@babel/plugin-proposal-class-properties"]
+      }
+    ],
+    ["@babel/preset-react"]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-class-properties"
+  ]
+}
+

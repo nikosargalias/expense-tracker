@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense list item 1`] = `
+<li>
+  <Link
+    to="/edit/1"
+  >
+    <h3>
+      gum
+    </h3>
+  </Link>
+  <p>
+    2000
+     - 
+    1/1/70, 1:00:00 AM
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Remove Item
+  </button>
+</li>
+`;

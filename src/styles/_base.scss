@@ -1,0 +1,31 @@
+html *,
+html *::before,
+html *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1rem;
+  // background-color: $col-prim-lighter;
+  // color: $secon-font;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.is-active {
+  font-weight: 700;
+}
+
+p {
+  transition: all 1s;
+}
+
+// .edit {
+//   opacity: 0;
+//   transition: opacity 1s;
+// }
+
+// .fade {
+//   opacity: 1;
+// }
